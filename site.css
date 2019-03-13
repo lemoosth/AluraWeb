@@ -28,7 +28,7 @@ blockquote {
 
 aside {
 	background-color: #3C1D3D;
-	color: inherit;
+	color: #F2FFFC;
 	font-family: "Open Sans Condensed", sans-serif;
 }
 footer{
@@ -39,4 +39,6 @@ footer{
 nav a{
 	color: #F2FFFC;
 }
+
+
 
