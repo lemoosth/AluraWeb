@@ -16,6 +16,7 @@ h1, h2 {
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 p {
@@ -40,15 +41,24 @@ p {
 
 nav a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 .icones-sociais li{
 	display: inline-block;	
 }
 
+.icones-sociais a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
 #rodape-pagina{
 	background-color: #000;
 	color: #F2FFFC;
+	clear: both;
 }
 
 .leia-mais {
@@ -95,6 +105,7 @@ em {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 
@@ -102,4 +113,37 @@ article{
 	padding-bottom: 30px;
 	border-bottom: 1px solid #CCC;
 	margin-bottom: 20px;
+}
+
+.github{
+	background-image: url(../imagens/github.png);
+}
+
+.twitter{
+	background-image: url(../imagens/twitter.png);
+}
+
+.linkedin{
+	background-image: url(../imagens/linkedin.png);
+}
+
+.fiat{
+	float: right;
+}
+
+.petrobras{
+	float: left;
+}
+
+aside, img{
+	float: right;
+	clear: right;
+	border: 10px solid black;
+	width: 15%;
+	box-sizing: border-box;
+}
+
+main{
+	width: 85%;
+	float: left;
 }
