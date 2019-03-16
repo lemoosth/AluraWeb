@@ -19,6 +19,13 @@ h1, h2 {
 	text-transform: uppercase;
 }
 
+.container{
+	margin: 0 auto;
+	width: 840px;
+	padding: 40px o;
+	padding-bottom: 80px;
+}
+
 p {
 	text-align: justify;
 	margin: 20px 0;
@@ -59,6 +66,10 @@ nav a {
 	background-color: #000;
 	color: #F2FFFC;
 	clear: both;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	text-align:center;
 }
 
 .leia-mais {
@@ -135,15 +146,41 @@ article{
 	float: left;
 }
 
-aside, img{
+aside, .minha-foto{
 	float: right;
-	clear: right;
-	border: 10px solid black;
-	width: 15%;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 	box-sizing: border-box;
+}
+aside{
+	position: relative;
+	top: 310px;
+	width: 15%;
+	clear: right;
+}
+
+.minha-foto{
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 
 main{
 	width: 85%;
 	float: left;
+}
+
+.box li{
+	border: 8px solid black;
+	background-color: #FAFFFC;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+	margin-left: 16px;
+	padding: 16px;
+	display: inline-block;
+	width: 40%;
+}
+
+.box img{
+	width: 100%;
 }
