@@ -1,186 +1,135 @@
 body {
-	font-family: "Crimson Text", "Times New Roman", serif;
-	background-color: #F2FFFC;
-	font-size: 120%;
-	line-height: 1.5;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
 }
 
-h1, h2 {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
+h1,
+h2,
+.subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-.titulo {
-	text-align: center;
-	background-color: #851944;
-	color: #FFF;
-	padding: 25px;
-	border-bottom: 10px solid black;
-	font-size: 60px;
-	text-transform: uppercase;
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
 }
 
-.container{
-	margin: 0 auto;
-	width: 840px;
-	padding: 40px o;
-	padding-bottom: 80px;
-}
-
-p {
-	text-align: justify;
-	margin: 20px 0;
-}
-
-.citacao{
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;
-	margin: 20px 40px;
-}
-
-.navegacao-site {
-	background-color: #3C1D3D;
-	color: #F2FFFC;
-	text-align: center;
-	padding: 20px;
-}
-
-nav a {
-	color: #F2FFFC;
-	text-transform: lowercase;
-}
-
-.icones-sociais li{
-	display: inline-block;	
-}
-
-.icones-sociais a{
-	width: 40px;
-	height: 40px;
-	display: inline-block;
-	text-indent: -9999px;
-}
-
-#rodape-pagina{
-	background-color: #000;
-	color: #F2FFFC;
-	clear: both;
-	position:fixed;
-	bottom: 0;
-	width: 100%;
-	text-align:center;
-}
-
-.leia-mais {
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
+.titulo-principal {
     text-align: center;
-    background-color: #E6E7E8;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    border-bottom: 10px solid #000;
+    position: relative;
+}
+
+.subtitulo-texto {
+    font-size: 30px;
+    clear: both;
 }
 
 main a {
-	color: #851944;
+    color: #851944;
 }
 
-aside a {
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
+main p {
+    text-align: justify;
+    margin: 20px 0;
 }
 
-blockquote, aside, footer {
+.navegacao-site {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
     padding: 20px;
 }
 
-main div {
-	width: 720px;
-	margin: auto;
-	padding: 30px 0;
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: lowercase;
 }
 
+.navegacao-site h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
 
-aside h1 {
-	font-size: 30px;
-	margin-bottom: 25px;
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
 }
 
 strong {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 em {
-	font-style: italic;
+    font-style: italic;
 }
 
-h2 {
-	font-size: 30px;
-	clear: both;
+.icones-redes-sociais li {
+    display: inline-block;
 }
 
-
-article{
-	padding-bottom: 30px;
-	border-bottom: 1px solid #CCC;
-	margin-bottom: 20px;
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
 }
 
-.github{
-	background-image: url(../imagens/github.png);
+.github {
+    background-image: url(../imagens/github.png);
 }
 
-.twitter{
-	background-image: url(../imagens/twitter.png);
+.twitter {
+    background-image: url(../imagens/twitter.png);
 }
 
-.linkedin{
-	background-image: url(../imagens/linkedin.png);
+.linkedin {
+    background-image: url(../imagens/linkedin.png);
 }
 
-.fiat{
-	float: right;
+main {
+    width: 80%;
+    float: left;
+    padding-bottom: 80px;
 }
 
-.petrobras{
-	float: left;
+.minha-foto,
+.navegacao-site {
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
 }
 
-aside, .minha-foto{
-	float: right;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
-	box-sizing: border-box;
-}
-aside{
-	position: relative;
-	top: 310px;
-	width: 15%;
-	clear: right;
+.navegacao-site {
+    width: 20%;
+    float: right;
+    position: relative;
+    top: 300px;
 }
 
-.minha-foto{
-	position: absolute;
-	top: 0px;
-	right: 0px;
-}
-
-main{
-	width: 85%;
-	float: left;
-}
-
-.box li{
-	border: 8px solid black;
-	background-color: #FAFFFC;
-	box-sizing: border-box;
-	margin-bottom: 16px;
-	margin-left: 16px;
-	padding: 16px;
-	display: inline-block;
-	width: 40%;
-}
-
-.box img{
-	width: 100%;
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 300px;
 }
