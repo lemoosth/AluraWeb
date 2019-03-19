@@ -1,7 +1,6 @@
 .foto-home {
     height: 200px;
     border-radius: 50%;
-    box-shadow: 0 0 1em #000;
 }
 .saudacao p {
     font-size: 1.5em;
@@ -38,7 +37,6 @@
     margin: 2em auto;
     display: block;
     text-align: center;
-    box-shadow: 0 0 1em #FFF, inset 0 0 .5em #FFF;
 }
 .secao-inicio {
     padding: 2em;
@@ -53,6 +51,9 @@
     background-color: #3C1D3D;
     border-top: .5em solid #000;
     border-bottom: .5em solid #000;
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 .trabalhos h2 {
     color: #FFF;
@@ -72,6 +73,9 @@
 .blog {
     background-color: #999;
     position: relative;
+    background-image: linear-gradient(45deg, transparent, transparent 14px, rgba(255,255,255,.1) 14px, rgba(255,255,255,.1) 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
     color: #FFF;
     border-bottom: .5em solid #851944;
 }
@@ -166,20 +170,16 @@ body {
 .javascript {
     top: 15%;
     left: 60%;
-    opacity: 0.3;
-    transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px) scale(0.25);
     -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
 }
 .acessibilidade {
     top: 30%;
     left: 35%;
-    opacity: 0.8;
-    transform: translate(-50%, -50%) rotate(-5deg) translateZ(3px) scale(0.25);
     -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
             transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
     opacity: .8;
-
+}
 .responsivo {
     top: 40%;
     left: 40%;
